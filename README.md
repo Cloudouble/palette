@@ -62,7 +62,7 @@ here as the variable values.
 ```palette--color-secondary``` variables in ```palette.css```. Compare the example to understand.
 
 
-### / manifest.json
+### /manifest.json
 Adjust the values of the following: 
 * **name**: the full name of your app
 * **short_name**: a shorter name for your app, one word ideally
