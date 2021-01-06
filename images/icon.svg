@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+	<style>
+		tspan { white-space:pre }
+		.txt0 { font-size: 192px;fill: #ed786a;font-weight: 700;font-family: "Arvo-Bold", "Arvo" } 
+	</style>
+	<text id="&lt;/&gt; " style="transform: matrix(1.953,0,0,1.955,20.469,393.895)" >
+		<tspan x="0" y="0" class="txt0">&lt;/&gt;</tspan>
+	</text>
+</svg>

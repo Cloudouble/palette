@@ -9,27 +9,27 @@
     
     /* other core theme settings */
     --palette--font: font-family(Roboto, sans-serif);
-    --palette--font-body: var(--palette--font);
+    --palette--font-text: var(--palette--font);
     --palette--font-heading: var(--palette--font);
     --palette--font-accent: var(--palette--font);
     
     /* core brand image */
-    --palette--image: none;
+    --palette--image: url(images/icon.png);
 
     /* context specific branding images */
-    --palette--image-logo: var(--palette--image); /* either a .webp, .png or .jpg image */
-    --palette--image-icon: var(--palette--image); /* should be a square .webp or .png image */
+    --palette--image-logo: url(images/logo.png); /* either a .webp, .png or .jpg image */
+    --palette--image-icon: url(images/icon.png); /* should be a square .webp or .png image */
     --palette--image-cover: none; /* should be a larger .webp or .jpg image if included */
 }
 
 /* REQUIRED functional color assignment settings, assign each named color to one or more purposes in the theme */
 :root {
     --palette--color-canvas: var(white); /* the background color */
-    --palette--color-chrome: var(--palette--pewter-blue); /* the color for borders, outlines and other interface chrome */
-    --palette--color-primary: var(--palette--salmon); /* the main branding color that captures the eye */
+    --palette--color-chrome: var(--palette--turquoise-green); /* the color for borders, outlines and other interface chrome */
+    --palette--color-primary: var(--palette--heliotrope-gray); /* the main branding color that captures the eye */
     --palette--color-secondary: var(--palette--liver-organ); /* the other branding color which complements, balances, and augments the primary branding color */
-    --palette--color-mute: var(--palette--heliotrope-gray); /* a weaker color to be used sparingly to avert attention away from itself */
-    --palette--color-accent: var(--palette--turquoise-green); /* a stronger color to be used sparingly to bring attention to itself */
+    --palette--color-mute: var(--palette--turquoise-green); /* a weaker color to be used sparingly to avert attention away from itself */
+    --palette--color-accent: var(--palette--salmon); /* a stronger color to be used sparingly to bring attention to itself */
     --palette--color-info: var(--palette--pewter-blue); /* the color for text or other neutral information */
     --palette--color-warning: var(--palette--pewter-blue); /* the color to communicate that something BAD MIGHT happen if corrective action isn't taken */
     --palette--color-danger: var(--palette--pewter-blue); /* the color to communicate that something BAD is happening */

@@ -14,33 +14,18 @@
     "theme_color": "#753224", 
     "icons": [
         {
-            "src": "images/icon-16.png",
-            "sizes": "16x16",
+            "src": "images/icon.png",
+            "sizes": "500x500",
             "type": "image/png"
         },
         {
-            "src": "images/icon-32.png",
-            "sizes": "32x32",
-            "type": "image/png"
-        },
-        {
-            "src": "images/icon-70.png",
-            "sizes": "70x70",
-            "type": "image/png"
-        },
-        {
-            "src": "images/icon-150.png",
-            "sizes": "150x150",
-            "type": "image/png"
-        },
-        {
-            "src": "images/icon-152.png",
-            "sizes": "152x152",
-            "type": "image/png"
+            "src": "images/icon.svg",
+            "sizes": "500x500",
+            "type": "image/svg+xml"
         }, 
         {
-            "src": "images/icon-167.png",
-            "sizes": "167x167",
+            "src": "images/icon-310.png",
+            "sizes": "310x310",
             "type": "image/png"
         },
         {
@@ -49,25 +34,40 @@
             "type": "image/png"
         },
         {
-            "src": "images/icon-310.png",
-            "sizes": "310x310",
+            "src": "images/icon-167.png",
+            "sizes": "167x167",
             "type": "image/png"
         },
         {
-            "src": "images/icon-500.png",
-            "sizes": "500x500",
+            "src": "images/icon-152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        }, 
+        {
+            "src": "images/icon-150.png",
+            "sizes": "150x150",
             "type": "image/png"
         },
         {
-            "src": "images/favicon.ico",
+            "src": "images/icon-70.png",
+            "sizes": "70x70",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon-32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon.ico",
             "sizes": "32x32",
             "type": "image/x-icon"
         }, 
         {
-            "src": "images/icon.svg",
-            "sizes": "500x500",
-            "type": "image/svg+xml"
-        }, 
+            "src": "images/icon-16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
         {
             "src": "images/logo.png",
             "type": "image/png"

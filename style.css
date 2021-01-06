@@ -1,0 +1,22 @@
+body {
+    background-color: var(--palette--color-canvas);
+    color: var(--palette--color-info);
+    font-family: var(--palette--font);
+}
+
+h1 {
+    font-family: var(--palette--font-heading);
+    color: var(--palette--color-primary);
+}
+
+p {
+    font-family: var(--palette--font-text);
+}
+
+a {
+    color: var(--palette--color-accent);
+}
+
+footer {
+    background-color: var(--palette--color-chrome);
+}

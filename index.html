@@ -7,10 +7,11 @@
         <meta name="generator" content="live-element">
         <meta name="application-name" content="Palette">
         <title>LiveElement Palette</title>
-        <link rel="icon" type="image/png" sizes="32x32" href="images/icon-32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="images/icon-16.png">
-        <!--[if IE]><link rel="shortcut icon" href="images/favicon.ico"><![endif]-->
+        <link rel="icon" type="image/png" sizes="32x32" href="images/icon-32.png">
+        <!--[if IE]><link rel="shortcut icon" href="images/icon.ico"><![endif]-->
         <link rel="manifest" href="manifest.json">
+        <meta name="msapplication-config" content="browserconfig.xml" />
         <meta name="theme-color" content="#753224"><!-- suggest same as --palette--color-chrome -->
         <link rel="apple-touch-icon" href="images/icon-152.png"><!-- iPhone -->
         <link rel="apple-touch-icon" sizes="152x152" href="images/icon-152.png"><!-- iPad -->
@@ -20,7 +21,8 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="default">
         <link rel="mask-icon" href="images/icon.svg" color="#ed786a"><!-- 'color' value suggest same as --palette--color-primary -->
-        <meta name="msapplication-config" content="browserconfig.xml" />
+        <link href="palette.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
     </head>
     <body>
         <noscript>LiveElement requires javascript enabled</noscript>
@@ -38,15 +40,15 @@
         <main>
             <section id="1">
                 <h1>Section 1</h1>
-                <div></div>
+                <p>Content for section 1</p>
             </section>
             <section id="2">
                 <h1>Section 2</h1>
-                <div></div>
+                <p>Content for section 2</p>
             </section>
             <section id="3">
                 <h1>Section 3</h1>
-                <div></div>
+                <p>Content for section 3</p>
             </section>
         </main>
         
@@ -54,11 +56,9 @@
             <address><a href="https://cloudouble.com" target="_blank">cloudouble.com</a></address>
         </footer>
         
-        <script src="https://sdk.amazonaws.com/js/aws-sdk-2.738.0.min.js"></script>
-        <script id="scriptloader">
-            /* global navigator */
-            ('serviceWorker' in navigator) ? navigator.serviceWorker.register('worker.js?'): null
-            document.getElementById('scriptloader').remove()
-        </script>
+        <script id="scriptloader">('serviceWorker' in window.navigator) ? window.navigator.serviceWorker.register('worker.js?'): null; document.getElementById('scriptloader').remove()</script>
+        <script src="https://cdn.jsdelivr.net/gh/cloudouble/element@1.5.0/element.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/cloudouble/live@1.0.2/live.min.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
