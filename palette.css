@@ -23,19 +23,17 @@
 }
 
 /* REQUIRED functional color assignment settings, assign each named color to one or more purposes in the theme */
-:r@media (prefers-color-scheme: light) {
-    :root {
-        --palette--color-canvas: var(white); /* the background color */
-        --palette--color-chrome: var(--palette--pewter-blue); /* the color for borders, outlines and other interface chrome */
-        --palette--color-primary: var(--palette--salmon); /* the main branding color that captures the eye */
-        --palette--color-secondary: var(--palette--liver-organ); /* the other branding color which complements, balances, and augments the primary branding color */
-        --palette--color-mute: var(--palette--heliotrope-gray); /* a weaker color to be used sparingly to avert attention away from itself */
-        --palette--color-accent: var(--palette--turquoise-green); /* a stronger color to be used sparingly to bring attention to itself */
-        --palette--color-info: var(--palette--pewter-blue); /* the color for text or other neutral information */
-        --palette--color-warning: var(--palette--pewter-blue); /* the color to communicate that something BAD MIGHT happen if corrective action isn't taken */
-        --palette--color-danger: var(--palette--pewter-blue); /* the color to communicate that something BAD is happening */
-        --palette--color-success: var(--palette--pewter-blue); /* the color to communicate that something GOOD is happening */
-    }
+:root {
+    --palette--color-canvas: var(white); /* the background color */
+    --palette--color-chrome: var(--palette--pewter-blue); /* the color for borders, outlines and other interface chrome */
+    --palette--color-primary: var(--palette--salmon); /* the main branding color that captures the eye */
+    --palette--color-secondary: var(--palette--liver-organ); /* the other branding color which complements, balances, and augments the primary branding color */
+    --palette--color-mute: var(--palette--heliotrope-gray); /* a weaker color to be used sparingly to avert attention away from itself */
+    --palette--color-accent: var(--palette--turquoise-green); /* a stronger color to be used sparingly to bring attention to itself */
+    --palette--color-info: var(--palette--pewter-blue); /* the color for text or other neutral information */
+    --palette--color-warning: var(--palette--pewter-blue); /* the color to communicate that something BAD MIGHT happen if corrective action isn't taken */
+    --palette--color-danger: var(--palette--pewter-blue); /* the color to communicate that something BAD is happening */
+    --palette--color-success: var(--palette--pewter-blue); /* the color to communicate that something GOOD is happening */
 }
 
 
