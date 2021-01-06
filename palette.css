@@ -1,11 +1,11 @@
 /* REQUIRED settings */
 :root {
     /* your core color scheme colors, as many as you like, named as you like, with a --palette-- prefix */
-    --palette--salmon: #ed786aff;
-    --palette--liver-organ: #753224ff;
-    --palette--heliotrope-gray: #a1959fff;
-    --palette--turquoise-green: #b6d9bcff;
-    --palette--pewter-blue: #87a7adff;
+    --palette--salmon: #ed786a;
+    --palette--liver-organ: #753224;
+    --palette--heliotrope-gray: #a1959f;
+    --palette--turquoise-green: #b6d9bc;
+    --palette--pewter-blue: #87a7ad;
     
     /* other core theme settings */
     --palette--font: font-family(Roboto, sans-serif);

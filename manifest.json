@@ -1,0 +1,83 @@
+{
+    "name": "LiveElement Palette",
+    "short_name": "Palette",
+    "orientation": "any", 
+    "prefer_related_applications": false, 
+    "related_applications": [], 
+    "categories": [], 
+    "description": "", 
+    "iarc_rating_id": "", 
+    "screenshots": [], 
+    "scope": "/", 
+    "shortcuts": [], 
+    "background_color": "#ed786a",
+    "theme_color": "#753224", 
+    "icons": [
+        {
+            "src": "images/icon-16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon-32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon-70.png",
+            "sizes": "70x70",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon-150.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon-152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        }, 
+        {
+            "src": "images/icon-167.png",
+            "sizes": "167x167",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon-180.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon-310.png",
+            "sizes": "310x310",
+            "type": "image/png"
+        },
+        {
+            "src": "images/icon-500.png",
+            "sizes": "500x500",
+            "type": "image/png"
+        },
+        {
+            "src": "images/favicon.ico",
+            "sizes": "32x32",
+            "type": "image/x-icon"
+        }, 
+        {
+            "src": "images/icon.svg",
+            "sizes": "500x500",
+            "type": "image/svg+xml"
+        }, 
+        {
+            "src": "images/logo.png",
+            "type": "image/png"
+        }, 
+        {
+            "src": "images/logo-310x150.png",
+            "sizes": "310x150",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/index.html", 
+    "display": "standalone"
+}

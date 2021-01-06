@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+  <msapplication>
+    <tile>
+      <square70x70logo src="images/icon-70.png"/>
+      <square150x150logo src="images/icon-150.png"/>
+      <wide310x150logo src="images/logo-310x150.png"/>
+      <square310x310logo src="images/icon-310.png"/>
+      <TileColor>#ed786a</TileColor><!-- 'color' value suggest same as --palette--color-secondary -->
+    </tile>
+  </msapplication>
+</browserconfig>

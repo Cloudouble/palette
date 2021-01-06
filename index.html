@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="generator" content="live-element">
+        <meta name="application-name" content="Palette">
+        <title>LiveElement Palette</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="images/icon-32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/icon-16.png">
+        <!--[if IE]><link rel="shortcut icon" href="images/favicon.ico"><![endif]-->
+        <link rel="manifest" href="manifest.json">
+        <meta name="theme-color" content="#753224"><!-- suggest same as --palette--color-chrome -->
+        <link rel="apple-touch-icon" href="images/icon-152.png"><!-- iPhone -->
+        <link rel="apple-touch-icon" sizes="152x152" href="images/icon-152.png"><!-- iPad -->
+        <link rel="apple-touch-icon" sizes="180x180" href="images/icon-180.png"><!-- iPhone retina -->
+        <link rel="apple-touch-icon" sizes="167x167" href="images/icon-167.png"><!-- iPad retina -->
+        <meta name="apple-mobile-web-app-title" content="Palette">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+        <link rel="mask-icon" href="images/icon.svg" color="#ed786a"><!-- 'color' value suggest same as --palette--color-primary -->
+        <meta name="msapplication-config" content="browserconfig.xml" />
+    </head>
+    <body>
+        <noscript>LiveElement requires javascript enabled</noscript>
+        
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#1">Section 1</a></li>
+                    <li><a href="#2">Section 2</a></li>
+                    <li><a href="#3">Section 3</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section id="1">
+                <h1>Section 1</h1>
+                <div></div>
+            </section>
+            <section id="2">
+                <h1>Section 2</h1>
+                <div></div>
+            </section>
+            <section id="3">
+                <h1>Section 3</h1>
+                <div></div>
+            </section>
+        </main>
+        
+        <footer>
+            <address><a href="https://cloudouble.com" target="_blank">cloudouble.com</a></address>
+        </footer>
+        
+        <script src="https://sdk.amazonaws.com/js/aws-sdk-2.738.0.min.js"></script>
+        <script id="scriptloader">
+            /* global navigator */
+            ('serviceWorker' in navigator) ? navigator.serviceWorker.register('worker.js?'): null
+            document.getElementById('scriptloader').remove()
+        </script>
+    </body>
+</html>
