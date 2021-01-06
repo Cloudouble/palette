@@ -10,8 +10,8 @@
     "screenshots": [], 
     "scope": "/", 
     "shortcuts": [], 
-    "background_color": "#ed786a",
-    "theme_color": "#753224", 
+    "background_color": "#ffffff",
+    "theme_color": "#b6d9bc", 
     "icons": [
         {
             "src": "images/icon.png",
