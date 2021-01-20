@@ -4,7 +4,44 @@ window.LiveElement.Element.load().then(() => {
     // do stuff...
 })
 
+/*
+window.navigator.serviceWorker.ready.then(function(registration) {
+  return registration.pushManager.getSubscription().then(subscription => {
+    if (subscription) { 
+      return subscription
+    } else {
+      return registration.pushManager.subscribe()
+    }
+  })
+}).then(function(subscription) {
+  fetch('./register', {
+    method: 'post',
+    headers: {
+      'Content-type': 'application/json'
+    },
+    body: JSON.stringify({
+      subscription: subscription
+    }),
+  });
 
+  document.getElementById('doIt').onclick = function() {
+    const delay = document.getElementById('notification-delay').value;
+    const ttl = document.getElementById('notification-ttl').value;
+    fetch('./sendNotification', {
+      method: 'post',
+      headers: {
+        'Content-type': 'application/json'
+      },
+      body: JSON.stringify({
+        subscription: subscription,
+        delay: delay,
+        ttl: ttl,
+      }),
+    });
+  };
+
+});"
+*/
 /*
 
 // define processors for window.LiveElement.Live

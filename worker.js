@@ -1,8 +1,8 @@
-/* global caches clients location fetch */
+/* global caches clients location fetch globalThis */
 var liveDomains = ['live-element.net']
 var pathsToCache = ['/index.html', '/script.js', '/style.css']
 
-addEventListener('install', function (installEvent) {
+globalThis.addEventListener('install', function (installEvent) {
     installEvent.waitUntil(clients.matchAll({type: 'all', includeUncontrolled: true}).then(function (windowClients) {
         var setupCaching = function() {
             caches.open('LiveElement').then(function(cache) {
@@ -17,19 +17,26 @@ addEventListener('install', function (installEvent) {
         }
     }))
 })
-addEventListener('activate', function (activateEvent) {
+globalThis.addEventListener('activate', function (activateEvent) {
     activateEvent.waitUntil(clients.claim())
     activateEvent.waitUntil(clients.matchAll({type: 'all', includeUncontrolled: true}).then(function (windowClients) {
         //console.log('worker.js: line 23', 'Service Worker Active')
     }))
 })
-addEventListener('message', event => {
+globalThis.addEventListener('message', event => {
     //console.log('worker.js: line 27', 'Service Worker message')
 })
-addEventListener('fetch', function(event) {
+globalThis.addEventListener('push', event => {
+    var title = event.data.title
+    delete event.data.title
+    event.waitUntil(globalThis.registration.showNotification(title, event.data))
+})
+globalThis.addEventListener('fetch', function(event) {
     event.respondWith(
         caches.match(event.request).then(function(response) {
             return response || fetch(event.request)
         })
     )
 })
+
+
